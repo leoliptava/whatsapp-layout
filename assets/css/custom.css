@@ -1,3 +1,8 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 .bg-top {
     height: 15vh;
     background-color: #009688;
@@ -16,47 +21,71 @@
     left: 10vw;
     z-index: 99999;
     height: 90vh;
-    background-color: #EEE;
-}
-
-.bg-contacts-top {
-    height: 7vh;
-    background-color: #EEE;
-}
-
-.bg-search {
-    height: 40px;
-    background-color: #F8F8F8;
-}
-
-.bg-contacts {
-    height: calc(575px - 40px - 50px);
     background-color: #FFF;
+    max-width: 80% !important;
 }
 
-.talks-head {
+.photo-icons {
     height: 7vh;
     background-color: #EEE;
-    border-left: 1px solid #999;
 }
 
-.talks-talks {
-    height: calc(89.6vh - 7vh);
+.search {
+    height: 5vh;
+    background-color: #f8f8f8;
+}
+
+.contacts {
+    height: calc(89.8vh - 12vh);
+    border: 1px solid #f8f8f8;
+}
+
+.top-talks {
+    height: 7vh;
+    background-color: #EEE;
+    border-left: 1px solid #D7DBD8;
+}
+
+.talks {
+    height: calc(94.7vh - 12vh);
     background-image: url("/assets/images/bg-image.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.img {
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 4px 12px !important;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
 }
 
-ion-icon {
-    cursor: pointer;
-    --ionicon-stroke-width: 32px;
-    font-size: 25px;
-  }
+.search-input {
+    background-color: #FFF;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input input {
+    padding: 0px 20px !important;
+    border: 0px;
+    width: 350px;
+    border-radius: 100px;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>WhatsApp</title>
 </head>
@@ -16,43 +17,61 @@
 
         <div class="bg-body"></div>    
 
-         
-            <div class="row">
-                <div class="container d-flex">
-                    <div class="col-4 contacts p-0">
-                        <div class="row">
-                            <div class="col-12 bg-contacts-top d-flex-column">
-                                <div class="row">
-                                    <div class="col-6 p-0">
-                                        
-                                        <img class="img rounded-circle" src="/assets/images/bg-image.jpg" alt="photo-profile">
+        
+        <div class="container">
 
-                                    </div>
-                                    <div class="col-6 p-0 m-0">
-                                       
+            <div class="row">
+                <div class="col-12 card modal-container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-12 d-flex photo-icons">
+                                    <div class="col-6"><img src="/assets/images/bg-image.jpg" alt="photo-profile"></div>
+                                    <div class="col-6 d-flex">
+                                        <div class="icons">
+                                            <span class="material-icons">donut_large</span>
+                                        </div>
+                                        <div class="icons">
+                                            <span class="material-icons">question_answer</span>
+                                        </div>
+                                        <div class="icons">
+                                            <span class="material-icons">more_vert</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-12 search">
+                                    <div class="search-input">
+                                        <span class="material-icons">search</span>
+                                        <input type="text" placeholder="Pesquisar ou começar uma nova conversa">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 text-center contacts">
+                                    contatos
+                                </div>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 bg-search"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 bg-contacts"></div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-12 text-center top-talks">
+                                    TOP HEAD
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 talks">
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-
-                    <div class="col container-fluid p-0 talks">
-                        <div class="row">
-                            <div class="col-12 talks-head"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 talks-talks"></div>
-                        </div>
                 </div>
             </div>
+
         </div>
+
 
     </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
