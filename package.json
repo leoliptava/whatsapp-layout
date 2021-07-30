@@ -1,0 +1,30 @@
+{
+  "name": "whats-layout",
+  "version": "1.0.0",
+  "description": "Layout do WhatsApp desenvolvido com o bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoliptava/whatsapp-layout.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "jquery",
+    "html5",
+    "css3"
+  ],
+  "author": "Leo Felipe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoliptava/whatsapp-layout/issues"
+  },
+  "homepage": "https://github.com/leoliptava/whatsapp-layout#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "yarn": "^1.22.11"
+  }
+}
