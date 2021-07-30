@@ -7,3 +7,43 @@
     height: calc(100vh - 15vh);
     background-color: #D7DBD8;
 }
+
+.modal-container {
+    position: fixed !important;
+    top: 10vh;
+    right: 100px;
+    bottom: 0;
+    left: 100px;
+    z-index: 99999;
+    width: 80vw;
+    height: 80vh;
+    background-color: #EEE;
+}
+
+.bg-contacts-top {
+    height: 50px;
+    background-color: #EEE;
+}
+
+.bg-search {
+    height: 40px;
+    background-color: #F8F8F8;
+}
+
+.bg-contacts {
+    height: calc(575px - 40px - 50px);
+    background-color: #FFF;
+}
+
+.talks-head {
+    height: 50px;
+    background-color: #EEE;
+    border-left: 1px solid #999;
+}
+
+.talks-talks {
+    height: calc(575px - 50px);
+    background-image: url("/assets/images/bg-image.jpg");
+    background-position: center;
+    background-size: cover;
+}
