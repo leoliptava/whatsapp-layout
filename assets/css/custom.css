@@ -10,18 +10,17 @@
 
 .modal-container {
     position: fixed !important;
-    top: 10vh;
-    right: 100px;
+    top: 5vh;
+    right: 10vw;
     bottom: 0;
-    left: 100px;
+    left: 10vw;
     z-index: 99999;
-    width: 80vw;
-    height: 80vh;
+    height: 90vh;
     background-color: #EEE;
 }
 
 .bg-contacts-top {
-    height: 50px;
+    height: 7vh;
     background-color: #EEE;
 }
 
@@ -36,14 +35,28 @@
 }
 
 .talks-head {
-    height: 50px;
+    height: 7vh;
     background-color: #EEE;
     border-left: 1px solid #999;
 }
 
 .talks-talks {
-    height: calc(575px - 50px);
+    height: calc(89.6vh - 7vh);
     background-image: url("/assets/images/bg-image.jpg");
     background-position: center;
     background-size: cover;
 }
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+ion-icon {
+    cursor: pointer;
+    --ionicon-stroke-width: 32px;
+    font-size: 25px;
+  }
