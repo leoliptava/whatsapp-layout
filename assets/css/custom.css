@@ -1,0 +1,9 @@
+.bg-top {
+    height: 15vh;
+    background-color: #009688;
+}
+
+.bg-body {
+    height: calc(100vh - 15vh);
+    background-color: #D7DBD8;
+}
