@@ -100,3 +100,10 @@ input:focus {
 input:focus .search-input {
     border-radius: 0px;
 }
+
+.list-group-custom-item {
+    border: none !important;
+    border-bottom: 1px solid #D7DBD8 !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
