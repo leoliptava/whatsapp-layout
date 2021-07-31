@@ -60,13 +60,16 @@ img {
     margin: 4px 12px !important;
 }
 
+.material-icons {
+    cursor: pointer;
+}
+
 .icons {
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 .search {
@@ -88,4 +91,12 @@ img {
     border: 0px;
     width: 350px;
     border-radius: 100px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+input:focus .search-input {
+    border-radius: 0px;
 }
