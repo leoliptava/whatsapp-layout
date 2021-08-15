@@ -48,7 +48,7 @@
 
 .talks {
     height: calc(94.7vh - 12vh);
-    background-image: url("/assets/images/bg-image.jpg");
+    background-image: url("../images/bg-image.jpg");
     background-position: center;
     background-size: cover;
 }
