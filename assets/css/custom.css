@@ -46,7 +46,7 @@
     border-left: 1px solid #D7DBD8;
 }
 
-.talks {
+#talks {
     height: calc(94.7vh - 12vh);
     background-image: url("../images/bg-image.jpg");
     background-position: center;
